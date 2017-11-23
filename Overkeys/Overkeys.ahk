@@ -13,7 +13,7 @@ ADHD := New ADHDLib
 ADHD.config_limit_app("Overwatch")
 
 ; GUI size
-ADHD.config_size(381,800)
+ADHD.config_size(381,830)
 
 ADHD.config_ignore_x64_warning()
 
@@ -42,6 +42,7 @@ ADHD.config_hotkey_add({uiname: "Zarya", subroutine: "Zarya"})
 ADHD.config_hotkey_add({uiname: "Ana", subroutine: "Ana"})
 ADHD.config_hotkey_add({uiname: "Lúcio", subroutine: "Lúcio"})
 ADHD.config_hotkey_add({uiname: "Mercy", subroutine: "Mercy"})
+ADHD.config_hotkey_add({uiname: "Moira", subroutine: "Moira"})
 ADHD.config_hotkey_add({uiname: "Symmetra", subroutine: "Symmetra"})
 ADHD.config_hotkey_add({uiname: "Zenyatta", subroutine: "Zenyatta"})
 
@@ -151,6 +152,9 @@ Lúcio:
 	return
 Mercy:
 	ExecuteClick(1690, 885)
+	return
+Moira:
+	ExecuteClick(1720, 885)
 	return
 Symmetra:
 	ExecuteClick(1745, 885)
